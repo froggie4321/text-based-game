@@ -1,4 +1,12 @@
-#include "game.h"
+#include <iostream>
+#include "attributes.h"
+#include "character.h"
+#include "equipment.h"
+#include "items.h"
+#include "stats.h"
+#include "story.h"
+
+
 
 /*Hector Alvarado source code will have a gnu license when uploaded to github
  *Fully C for this game so i will not have access to OOP 
@@ -12,7 +20,7 @@
 
 int main(void){
 
-	std::cout<<"IF YOU ARE SEEING THIS EVERYTHING IS COMING ALONG NICELY";
+	std::cout<<"IF YOU ARE SEEING THIS EVERYTHING IS COMING ALONG NICELY\n";
 	
 
 

@@ -1,0 +1,9 @@
+THis will contain notes on things that need to be added or fixed next time.
+
+1) okay so i need to add getters and setters for attributes, items, equipment,and stats classes
+2) Add constructors and destructors to all classes listed on line 1
+3) use those setters and getters to update stats on the character class.
+3) once all that is done try  make game and see if everything compiles and runs fine. 
+
+
+
