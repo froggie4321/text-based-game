@@ -7,18 +7,27 @@
 #include "chapter_5.c"
 
 
-int story(){
+int story(struct Choices choices){
 //this will control the main story progression
 	printf("game starts\n");
-	int result;
-	result = chapter_1();
-	result = chapter_2();
-	result = chapter_3();
-	result = chapter_4();
-	result = chapter_5();
+	
+	if(choices.exit==1){
+		choices.exit = chapter_1(choices);
+	}
+	if(choices.exit==2){
+		choices.exit = chapter_2(choices);
+	}
+	if(choices.exit==3){
+		choices.exit = chapter_3(choices);
+	}
+	if(choices.exit==4){
+		choices.exit = chapter_4(choices);
+	}
+	if(choices.exit==5){
+		choices.exit = chapter_5(choices);
+	}
 
-
-	return 0;
+	return choices.exit;
 }
 
 

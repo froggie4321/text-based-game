@@ -1,5 +1,8 @@
 TODO:
-	i need to make sure that this compiles correctly and everything runs smoothly
-
+	*i need to make sure that this compiles correctly and everything runs smoothly
+	*Actuall figure out a story
+	*handle different chapter paths progression.
+	*Need to figure out how to set error handlers incase something goes wrong
+	*Should i add test cases?
 
 
