@@ -2,11 +2,12 @@
 #include<stdio.h>
 
 
-int chapter_4(struct Choices choices){
+void chapter_4(){
 	printf("chapter 4 here and accounted for\n");
+	
+	
+	choices.exit=5;
 
-
-	return 5;
 }
 
 

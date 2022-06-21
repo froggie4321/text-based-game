@@ -2,11 +2,12 @@
 #include<stdio.h>
 
 
-int chapter_5(struct Choices choices){
+void chapter_5(){
 
 	printf("chapter 5. why do i hear boss music\n");
 
-	return 0;
+	
+	choices.exit=0;
 }
 
 
