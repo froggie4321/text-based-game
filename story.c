@@ -9,7 +9,7 @@
 
 void story(){
 //this will control the main story progression
-	printf("game starts\n");
+
 	
 	if(choices.exit==1){
 		 chapter_1(choices);
@@ -20,6 +20,7 @@ void story(){
 	if(choices.exit==3){
 		chapter_3(choices);
 	}
+/*
 	if(choices.exit==4){
 		chapter_4(choices);
 	}
@@ -28,7 +29,7 @@ void story(){
 	}
 
 	printf("%d\n",choices.exit);
-
+*/
 	
 }
 

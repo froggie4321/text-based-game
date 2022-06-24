@@ -1,7 +1,12 @@
 TODO:
 	*i need to make sure that this compiles correctly and everything runs smoothly
-	*Actuall figure out a story
-		--Finish chapter 2
+	*Actually figure out a story
+		--Finish chapter 3 and story
+	*chapter 3:
+		path one leads to death of old ones/evil creatures comes in and takes over
+		paht two leads to releasing the old ones/ evil creatures roam the world
+		path three you sacrifice yourself and the old ones to kill the acient evil.
+
 	*handle different chapter paths progression.
 		--Do not forget to update choices.exit.
 	*Need to figure out how to set error handlers incase something goes wrong
